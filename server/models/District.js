@@ -14,5 +14,6 @@ const districtSchema = new mongoose.Schema({
 // unique index to upsert by these keys
 districtSchema.index({ state_name: 1, district_code: 1, fin_year: 1, month: 1 }, { unique: true });
 
-const District = mongoose.model("District", districtSchema);
-export default District;
+// const District = mongoose.model("District", districtSchema);
+export default mongoose.model("DistrictData", districtSchema, "districts");
+

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000/api/mgnrega";
+const API_BASE = import.meta.env.VITE_API_BASE || "/api/mgnrega";
 
 const api = {
   getLatestPunjab: async () => {
