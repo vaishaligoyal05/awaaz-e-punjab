@@ -20,21 +20,32 @@ await connectDB();
 // API routes
 app.use("/api/mgnrega", mgnregaRoutes);
 
-// Paths for serving React frontend
+// =======================================================
+// 🧱 Serve React frontend (for Render / Production)
+// =======================================================
+
+// ES Modules fix for __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Define path to React build
 const buildPath = path.join(__dirname, "../client/build");
 
+// Serve static frontend files
 app.use(express.static(buildPath));
 
-// ✅ Express v5 FIX: must use regex instead of "*"
-app.use(/^(?!\/api).*/, (req, res) => {
+// For any route not starting with /api, send React index.html
+app.get(/^(?!\/api).*/, (req, res) => {
   res.sendFile(path.join(buildPath, "index.html"));
 });
 
-// Start background job
+// =======================================================
+// 🕒 Background sync job
+// =======================================================
 startSyncJob();
 
-// Start server
+// =======================================================
+// 🚀 Start server
+// =======================================================
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
