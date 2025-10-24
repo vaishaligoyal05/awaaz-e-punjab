@@ -1,0 +1,156 @@
+{
+  "select_district": "ਆਪਣਾ ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ",
+  "listen_summary": "ਸੰਖੇਪ ਸੁਣੋ",
+  "stop": "ਰੋਕੋ",
+  "total_households": "ਕੁੱਲ ਘਰਾਣੇ ਕੰਮ ਕੀਤੇ",
+  "total_individuals": "ਕੁੱਲ ਵਿਅਕਤੀ ਕੰਮ ਕੀਤੇ", 
+  "total_job_cards": "ਕੁੱਲ ਜੌਬ ਕਾਰਡ",
+  "women_persondays": "ਔਰਤਾਂ ਦੇ ਕੰਮ ਦੇ ਦਿਨ",
+  "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+  "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+  "average_wage_rate": "ਔਸਤ ਮਜ਼ਦੂਰੀ ਦਰ",
+  "total_expenditure": "ਕੁੱਲ ਖਰਚਾ",
+  "days_per_household": "ਪ੍ਰਤੀ ਪਰਿਵਾਰ ਰੁਜ਼ਗਾਰ ਦੇ ਦਿਨ",
+  "select_year": "ਸਾਲ ਚੁਣੋ",
+  "select_month": "ਮਹੀਨਾ ਚੁਣੋ",
+  "all": "ਸਾਰੇ",
+
+  "app": {
+    "name": "ਆਵਾਜ਼-ਏ-ਪੰਜਾਬ",
+    "tagline": "ਪੰਜਾਬ ਦੀ ਆਵਾਜ਼ - ਮਨਰੇਗਾ ਪ੍ਰਦਰਸ਼ਨ ਡੈਸ਼ਬੋਰਡ",
+    "welcome": "ਪੰਜਾਬ ਦੇ ਮਨਰੇਗਾ ਡੈਸ਼ਬੋਰਡ ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ",
+    "description": "ਆਪਣੇ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਰੁਜ਼ਗਾਰ ਅਤੇ ਵਿਕਾਸ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ"
+  },
+
+  "navigation": {
+    "home": "ਹੋਮ",
+    "compare": "ਜ਼ਿਲ੍ਹਿਆਂ ਦੀ ਤੁਲਨਾ",
+    "about": "ਬਾਰੇ",
+    "help": "ਮਦਦ ਅਤੇ ਸਹਾਇਤਾ"
+  },
+
+  "home": {
+    "state_overview": "ਪੰਜਾਬ ਦੀ ਝਲਕ",
+    "quick_stats": "ਤੁਰੰਤ ਅੰਕੜੇ",
+    "find_district": "ਆਪਣਾ ਜ਼ਿਲ੍ਹਾ ਲੱਭੋ",
+    "popular_districts": "ਪ੍ਰਸਿੱਧ ਜ਼ਿਲ੍ਹੇ",
+    "recent_updates": "ਤਾਜ਼ਾ ਅਪਡੇਟ"
+  },
+
+  
+  "districts": {
+    "amritsar": "ਅੰਮ੍ਰਿਤਸਰ",
+    "barnala": "ਬਰਨਾਲਾ",
+    "bathinda": "ਬਠਿੰਡਾ",
+    "faridkot": "ਫਰੀਦਕੋਟ",
+    "fatehgarh_sahib": "ਫਤਿਹਗੜ੍ਹ ਸਾਹਿਬ",
+    "fazilka": "ਫਾਜ਼ਿਲਕਾ",
+    "ferozepur": "ਫਿਰੋਜ਼ਪੁਰ",
+    "gurdaspur": "ਗੁਰਦਾਸਪੁਰ",
+    "hoshiarpur": "ਹੁਸ਼ਿਆਰਪੁਰ",
+    "jalandhar": "ਜਲੰਧਰ",
+    "kapurthala": "ਕਪੂਰਥਲਾ",
+    "ludhiana": "ਲੁਧਿਆਣਾ",
+    "mansa": "ਮਾਨਸਾ",
+    "moga": "ਮੋਗਾ",
+    "mohali": "ਮੋਹਾਲੀ (ਐਸ.ਏ.ਐਸ ਨਗਰ)",
+    "muktsar": "ਸ੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ",
+    "pathankot": "ਪਠਾਨਕੋਟ",
+    "patiala": "ਪਟਿਆਲਾ",
+    "rupnagar": "ਰੂਪਨਗਰ",
+    "sangrur": "ਸੰਗਰੂਰ",
+    "shahid_bhagat_singh_nagar": "ਸ਼ਹੀਦ ਭਗਤ ਸਿੰਘ ਨਗਰ (ਨਵਾਂਸ਼ਹਿਰ)",
+    "tarn_taran": "ਤਰਨ ਤਾਰਨ",
+    "malerkotla": "ਮਲੇਰਕੋਟਲਾ"
+  },
+
+
+  "stats": {
+    "total_budget": "ਕੁੱਲ ਬਜਟ",
+    "active_workers": "ਸਰਗਰਮ ਕਾਮੇ",
+    "ongoing_projects": "ਚੱਲ ਰਹੇ ਪ੍ਰੋਜੈਕਟ",
+    "funds_utilized": "ਵਰਤੇ ਗਏ ਫੰਡ",
+    "wages_paid": "ਦਿੱਤੀ ਗਈ ਮਜ਼ਦੂਰੀ",
+    "households_benefited": "ਲਾਭ ਪ੍ਰਾਪਤ ਘਰ"
+  },
+
+  "comparison": {
+    "title": "ਜ਼ਿਲ੍ਹਾ ਤੁਲਨਾ",
+    "select_districts": "ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ",
+    "compare_btn": "ਤੁਲਨਾ ਕਰੋ",
+    "reset": "ਰੀਸੈੱਟ ਕਰੋ",
+    "no_selection": "ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ"
+  },
+
+  "filters": {
+    "year": "ਸਾਲ",
+    "month": "ਮਹੀਨਾ",
+    "category": "ਸ਼੍ਰੇਣੀ",
+    "apply": "ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ",
+    "clear": "ਫਿਲਟਰ ਹਟਾਓ"
+  },
+
+  "months": {
+    "1": "ਜਨਵਰੀ",
+    "2": "ਫਰਵਰੀ",
+    "3": "ਮਾਰਚ",
+    "4": "ਅਪ੍ਰੈਲ",
+    "5": "ਮਈ",
+    "6": "ਜੂਨ",
+    "7": "ਜੁਲਾਈ",
+    "8": "ਅਗਸਤ",
+    "9": "ਸਤੰਬਰ",
+    "10": "ਅਕਤੂਬਰ",
+    "11": "ਨਵੰਬਰ",
+    "12": "ਦਸੰਬਰ"
+  },
+
+  "audio": {
+    "play": "ਆਡੀਓ ਸੰਖੇਪ ਚਲਾਓ",
+    "pause": "ਰੋਕੋ",
+    "stop": "ਬੰਦ ਕਰੋ",
+    "loading": "ਆਡੀਓ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "error": "ਆਡੀਓ ਚਲਾਉਣ ਵਿੱਚ ਤਰੁੱਟੀ"
+  },
+
+  "errors": {
+    "loading": "ਡਾਟਾ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ",
+    "try_again": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "no_data": "ਕੋਈ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ",
+    "location_error": "ਸਥਾਨ ਦਾ ਪਤਾ ਨਹੀਂ ਲੱਗ ਸਕਿਆ",
+    "network_error": "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਤਰੁੱਟੀ"
+  },
+
+  "accessibility": {
+    "skip_link": "ਮੁੱਖ ਸਮੱਗਰੀ ਤੇ ਜਾਓ",
+    "menu_button": "ਮੀਨੂ ਟੌਗਲ ਕਰੋ",
+    "language_select": "ਭਾਸ਼ਾ ਬਦਲੋ"
+  },
+
+  "meta": {
+    "last_updated": "ਆਖਰੀ ਅਪਡੇਟ: {{date}}",
+    "data_source": "ਸਰੋਤ: ਮਨਰੇਗਾ ਜਨਤਕ ਡਾਟਾ ਪੋਰਟਲ",
+    "refresh": "ਡਾਟਾ ਰਿਫਰੈਸ਼ ਕਰੋ"
+  },
+  "yes": "ਹਾਂ",
+  "no": "ਨਹੀਂ",
+  
+  "card_stats": {
+    "total_households": "ਕੁੱਲ ਪਰਿਵਾਰ",
+    "total_individuals": "ਕੁੱਲ ਵਿਅਕਤੀ",
+    "total_job_cards": "ਕੁੱਲ ਜੌਬ ਕਾਰਡ",
+    "women_persondays": "ਔਰਤਾਂ ਦੇ ਕੰਮ ਦੇ ਦਿਨ",
+    "average_wage_rate": "ਔਸਤ ਮਜ਼ਦੂਰੀ ਦਰ",
+    "total_expenditure": "ਕੁੱਲ ਖਰਚਾ",
+    "days_per_household": "ਪ੍ਰਤੀ ਪਰਿਵਾਰ ਦਿਨ"
+  },
+   "dashboardd": {
+    "title": "Dashboard",
+    "wage_conclusion": "On average, a worker in {{district}} earned ₹{{amount}} per day in {{year}}.",
+    "expenditure_conclusion": "The total expenditure for employment in {{district}} was ₹{{amount}} in {{year}}.",
+    "employment_days_conclusion": "Each household received approximately {{days}} days of work on average in {{year}}.",
+    "no_data": "No data available"
+  }
+
+
+}

@@ -1,0 +1,133 @@
+{
+  "select_district": "Select Your District",
+  "listen_summary": "Listen Summary", 
+  "stop": "Stop",
+  "total_households": "Total Households Worked",
+  "total_individuals": "Total Individuals Worked",
+  "total_job_cards": "Total Job Cards",
+  "women_persondays": "Women Person Days",
+  "dashboard": "Dashboard",
+  "loading": "Loading...",
+  "average_wage_rate": "Average Wage Rate",
+  "total_expenditure": "Total Expenditure",
+  "days_per_household": "Days of Employment per Household",
+  "select_year": "Select Year",
+  "select_month": "Select Month",
+  "all": "All",
+
+  "app": {
+    "name": "Awaaz-e-Punjab",
+    "tagline": "Voice of Punjab - MGNREGA Performance Dashboard",
+    "welcome": "Welcome to Punjab's MGNREGA Dashboard",
+    "description": "Track employment and development in your district"
+  },
+
+  "navigation": {
+    "home": "Home",
+    "compare": "Compare Districts",
+    "about": "About",
+    "help": "Help & Support"
+  },
+
+  "home": {
+    "state_overview": "Punjab Overview",
+    "quick_stats": "Quick Statistics",
+    "find_district": "Find Your District",
+    "popular_districts": "Popular Districts",
+    "recent_updates": "Recent Updates"
+  },
+
+  "districts": {
+    "amritsar": "Amritsar",
+    "barnala": "Barnala",
+    "bathinda": "Bathinda",
+    "faridkot": "Faridkot",
+    "fatehgarh_sahib": "Fatehgarh Sahib",
+    "fazilka": "Fazilka",
+    "ferozepur": "Ferozepur",
+    "gurdaspur": "Gurdaspur",
+    "hoshiarpur": "Hoshiarpur",
+    "jalandhar": "Jalandhar",
+    "kapurthala": "Kapurthala",
+    "ludhiana": "Ludhiana",
+    "mansa": "Mansa",
+    "moga": "Moga",
+    "mohali": "Mohali (SAS Nagar)",
+    "muktsar": "Sri Muktsar Sahib",
+    "pathankot": "Pathankot",
+    "patiala": "Patiala",
+    "rupnagar": "Rupnagar",
+    "sangrur": "Sangrur",
+    "shahid_bhagat_singh_nagar": "Shahid Bhagat Singh Nagar (Nawanshahr)",
+    "tarn_taran": "Tarn Taran",
+    "malerkotla": "Malerkotla"
+  },
+
+  "stats": {
+    "total_budget": "Total Budget",
+    "active_workers": "Active Workers",
+    "ongoing_projects": "Ongoing Projects",
+    "funds_utilized": "Funds Utilized",
+    "wages_paid": "Wages Paid",
+    "households_benefited": "Households Benefited"
+  },
+
+  "comparison": {
+    "title": "District Comparison",
+    "select_districts": "Select districts to compare",
+    "compare_btn": "Compare",
+    "reset": "Reset",
+    "no_selection": "Please select districts to compare"
+  },
+
+  "filters": {
+    "year": "Year",
+    "month": "Month",
+    "category": "Category",
+    "apply": "Apply Filters",
+    "clear": "Clear Filters"
+  },
+
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+
+  "audio": {
+    "play": "Play Audio Summary",
+    "pause": "Pause",
+    "stop": "Stop",
+    "loading": "Loading audio...",
+    "error": "Error playing audio"
+  },
+
+  "errors": {
+    "loading": "Error loading data",
+    "try_again": "Please try again",
+    "no_data": "No data available",
+    "location_error": "Could not detect location",
+    "network_error": "Network connection error"
+  },
+
+  "accessibility": {
+    "skip_link": "Skip to main content",
+    "menu_button": "Toggle menu",
+    "language_select": "Change language"
+  },
+
+  "meta": {
+    "last_updated": "Last Updated: {{date}}",
+    "data_source": "Source: MGNREGA Public Data Portal",
+    "refresh": "Refresh Data"
+  }
+}

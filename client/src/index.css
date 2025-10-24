@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi&display=swap');
+
+.font-punjabi {
+  font-family: 'Noto Sans Gurmukhi', sans-serif;
+}
+
+/* Phulkari-like background */
+.bg-phulkari {
+  background-image: url('/assets/phulkari-bg.png'); /* add your pattern image */
+  background-size: cover;
+  background-repeat: repeat;
+}
