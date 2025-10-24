@@ -1,4 +1,4 @@
-    import express from "express";
+import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
@@ -19,18 +19,15 @@ await connectDB();
 // API routes
 app.use("/api/mgnrega", mgnregaRoutes);
 
-// Serve React frontend
+// Serve React frontend (Vite build output is in "dist")
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Serve static files from the React build
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "../client/dist")));
 
-// For any route not handled by API, serve React's index.html
-app.get(/.*/, (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
-
 
 // Start cron job
 startSyncJob();
