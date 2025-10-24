@@ -29,13 +29,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Define path to React build
-const buildPath = path.join(__dirname, "../client/build");
+const buildPath = path.join(__dirname, "../client/dist");
 
 // Serve static frontend files
 app.use(express.static(buildPath));
 
 // For any route not starting with /api, send React index.html
-app.get(/^(?!\/api).*/, (req, res) => {
+app.use(/^(?!\/api).*/, (req, res) => {
   res.sendFile(path.join(buildPath, "index.html"));
 });
 
