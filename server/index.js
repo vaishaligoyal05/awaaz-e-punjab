@@ -19,15 +19,16 @@ await connectDB();
 // API routes
 app.use("/api/mgnrega", mgnregaRoutes);
 
-// Serve React frontend (Vite build output is in "client/dist")
+// Serve React frontend
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(express.static(path.join(__dirname, "client/dist")));
+// Serve static files from the React build
+app.use(express.static(path.join(__dirname, "../client/build")));
 
-// Catch-all route for React
-app.get(/^(?!\/api).*$/, (req, res) => {
-  res.sendFile(path.join(__dirname, "client/dist/index.html"));
+// For any route not handled by API, serve React's index.html
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
 
 // Start cron job
