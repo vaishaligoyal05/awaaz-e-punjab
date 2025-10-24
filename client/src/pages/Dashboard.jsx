@@ -87,30 +87,40 @@ const Dashboard = () => {
 
   const latest = filteredRecords[0] || {};
 
-  // Function to generate plain-language conclusion for a metric
-  const getConclusion = (metric) => {
-    if (!filteredRecords.length) return t('dashboard.no_data');
-    const districtName = latest.district_name;
-    
-    switch(metric) {
-      case "Average_Wage_rate_per_day_per_person":
-        return t('dashboard.wage_conclusion', {
-          district: districtName,
-          amount: latest.Average_Wage_rate_per_day_per_person?.toLocaleString() || 0,
-          year: selectedYear
-        });
-      case "Total_Exp":
-        return `The total expenditure for employment in ${latest.district_name} was ₹${latest.Total_Exp?.toLocaleString() || 0} in ${selectedYear}.`;
-      case "Average_days_of_employment_provided_per_Household":
-        return `Each household received approximately ${latest.Average_days_of_employment_provided_per_Household || 0} days of work on average in ${selectedYear}.`;
-      default:
-        return "";
-    }
-  };
+ const getConclusion = (metric) => {
+  if (!filteredRecords.length) return t('dashboard.no_data');
+  const districtName = latest.district_name;
+
+  switch (metric) {
+    case "Average_Wage_rate_per_day_per_person":
+      return t('dashboard.wage_conclusion', {
+        district: districtName,
+        amount: latest.Average_Wage_rate_per_day_per_person?.toLocaleString() || 0,
+        year: selectedYear,
+      });
+
+    case "Total_Exp":
+      return t('dashboard.expenditure_conclusion', {
+        district: districtName,
+        amount: latest.Total_Exp?.toLocaleString() || 0,
+        year: selectedYear,
+      });
+
+    case "Average_days_of_employment_provided_per_Household":
+      return t('dashboard.days_conclusion', {
+        days: latest.Average_days_of_employment_provided_per_Household || 0,
+        year: selectedYear,
+      });
+
+    default:
+      return "";
+  }
+};
+
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">{latest.district_name} {t('dashboard')}</h1>
+      <h1 className="text-2xl font-bold mb-4">{latest.district_name} {t('dashboard.dashboard')}</h1>
 
       <Filters
         records={records}

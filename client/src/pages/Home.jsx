@@ -91,7 +91,7 @@ const Home = () => {
       {showPrompt && autoDistrict && (
         <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-4">
           <p className="mb-2">
-            {t("home.find_district")}: <strong>{autoDistrict.district_name}</strong>. {t("dashboard")}?
+            {t("home.find_district")}: <strong>{autoDistrict.district_name}</strong>. {t("dashboard.dashboard")}?
           </p>
           <div className="flex gap-2 mt-2">
             <button

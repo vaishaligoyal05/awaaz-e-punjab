@@ -125,3 +125,16 @@ export async function getDistrictRecords(req, res) {
     return res.status(500).json({ message: "Server error" });
   }
 }
+
+// Get all Punjab records (all years, all districts)
+export async function getAllPunjab(req, res) {
+  try {
+    const rows = await District.find({ state_name: "PUNJAB" }).sort({ district_code: 1, fin_year: -1, month: -1 });
+    const mapped = rows.map(r => r.raw || r);
+    return res.json({ count: mapped.length, data: mapped });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ message: "Server error" });
+  }
+}
+

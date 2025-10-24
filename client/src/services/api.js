@@ -8,6 +8,12 @@ const api = {
     return res.data;
   },
 
+  getAllPunjab: async () => {
+  const res = await axios.get(`${API_BASE}/all`);
+  return res.data;
+},
+
+
   getDistrictRecords: async (districtCode) => {
     const res = await axios.get(`${API_BASE}/district/${districtCode}`);
     return res.data;

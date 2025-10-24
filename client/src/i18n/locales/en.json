@@ -6,7 +6,6 @@
   "total_individuals": "Total Individuals Worked",
   "total_job_cards": "Total Job Cards",
   "women_persondays": "Women Person Days",
-  "dashboard": "Dashboard",
   "loading": "Loading...",
   "average_wage_rate": "Average Wage Rate",
   "total_expenditure": "Total Expenditure",
@@ -34,6 +33,8 @@
     "quick_stats": "Quick Statistics",
     "find_district": "Find Your District",
     "popular_districts": "Popular Districts",
+    "open_dashboard_question": "Open dashboard?",
+    "comparison": "Comparison",
     "recent_updates": "Recent Updates"
   },
 
@@ -72,14 +73,7 @@
     "households_benefited": "Households Benefited"
   },
 
-  "comparison": {
-    "title": "District Comparison",
-    "select_districts": "Select districts to compare",
-    "compare_btn": "Compare",
-    "reset": "Reset",
-    "no_selection": "Please select districts to compare"
-  },
-
+ 
   "filters": {
     "year": "Year",
     "month": "Month",
@@ -129,5 +123,45 @@
     "last_updated": "Last Updated: {{date}}",
     "data_source": "Source: MGNREGA Public Data Portal",
     "refresh": "Refresh Data"
+  },
+  "app_name_en": "Awaaz-e-Punjab",
+  "yes": "Yes",
+"no": "No",
+"dashboard": {
+  "dashboard": "Dashboard",
+  "no_data": "No data available.",
+  "wage_conclusion": "In {{district}}, the average wage rate per person per day was ₹{{amount}} during {{year}}.",
+  "expenditure_conclusion": "The total expenditure for employment in {{district}} was ₹{{amount}} during {{year}}.",
+  "days_conclusion": "Each household received approximately {{days}} days of work on average during {{year}}."
+},
+"comparison": {
+    "select_districts": "Select districts to compare",
+    "compare_btn": "Compare",
+    "no_selection": "Please select districts to compare",
+  "title": "Compare Districts",
+  "search_placeholder": "Search district...",
+  "selected_count": "district(s) selected",
+  "instructions": "Double-click a district to select or unselect.",
+  "done": "Done",
+  "reset": "Reset",
+  "results": "Comparison Results",
+  "back": "Back to Selection",
+  "alert_select_district": "Please select at least one district to compare!",
+  "metrics": {
+    "avg_wage": "Average Wage Rate per Day per Person",
+    "total_exp": "Total Expenditure",
+    "households": "Total Households Worked",
+    "individuals": "Total Individuals Worked",
+    "jobcards": "Total Job Cards Issued"
+  },
+  "conclusion": {
+    "avg_wage": "₹{{value}} per day",
+    "total_exp": "₹{{value}} total expenditure",
+    "households": "{{value}} households worked",
+    "individuals": "{{value}} individuals worked",
+    "jobcards": "{{value}} job cards issued"
   }
+}
+
+
 }

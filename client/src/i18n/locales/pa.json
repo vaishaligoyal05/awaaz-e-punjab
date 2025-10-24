@@ -3,10 +3,10 @@
   "listen_summary": "ਸੰਖੇਪ ਸੁਣੋ",
   "stop": "ਰੋਕੋ",
   "total_households": "ਕੁੱਲ ਘਰਾਣੇ ਕੰਮ ਕੀਤੇ",
-  "total_individuals": "ਕੁੱਲ ਵਿਅਕਤੀ ਕੰਮ ਕੀਤੇ", 
+  "total_individuals": "ਕੁੱਲ ਵਿਅਕਤੀ ਕੰਮ ਕੀਤੇ",
   "total_job_cards": "ਕੁੱਲ ਜੌਬ ਕਾਰਡ",
   "women_persondays": "ਔਰਤਾਂ ਦੇ ਕੰਮ ਦੇ ਦਿਨ",
-  "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+  
   "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
   "average_wage_rate": "ਔਸਤ ਮਜ਼ਦੂਰੀ ਦਰ",
   "total_expenditure": "ਕੁੱਲ ਖਰਚਾ",
@@ -14,21 +14,18 @@
   "select_year": "ਸਾਲ ਚੁਣੋ",
   "select_month": "ਮਹੀਨਾ ਚੁਣੋ",
   "all": "ਸਾਰੇ",
-
   "app": {
     "name": "ਆਵਾਜ਼-ਏ-ਪੰਜਾਬ",
     "tagline": "ਪੰਜਾਬ ਦੀ ਆਵਾਜ਼ - ਮਨਰੇਗਾ ਪ੍ਰਦਰਸ਼ਨ ਡੈਸ਼ਬੋਰਡ",
     "welcome": "ਪੰਜਾਬ ਦੇ ਮਨਰੇਗਾ ਡੈਸ਼ਬੋਰਡ ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ",
     "description": "ਆਪਣੇ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਰੁਜ਼ਗਾਰ ਅਤੇ ਵਿਕਾਸ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ"
   },
-
   "navigation": {
     "home": "ਹੋਮ",
     "compare": "ਜ਼ਿਲ੍ਹਿਆਂ ਦੀ ਤੁਲਨਾ",
     "about": "ਬਾਰੇ",
     "help": "ਮਦਦ ਅਤੇ ਸਹਾਇਤਾ"
   },
-
   "home": {
     "state_overview": "ਪੰਜਾਬ ਦੀ ਝਲਕ",
     "quick_stats": "ਤੁਰੰਤ ਅੰਕੜੇ",
@@ -36,8 +33,6 @@
     "popular_districts": "ਪ੍ਰਸਿੱਧ ਜ਼ਿਲ੍ਹੇ",
     "recent_updates": "ਤਾਜ਼ਾ ਅਪਡੇਟ"
   },
-
-  
   "districts": {
     "amritsar": "ਅੰਮ੍ਰਿਤਸਰ",
     "barnala": "ਬਰਨਾਲਾ",
@@ -63,8 +58,6 @@
     "tarn_taran": "ਤਰਨ ਤਾਰਨ",
     "malerkotla": "ਮਲੇਰਕੋਟਲਾ"
   },
-
-
   "stats": {
     "total_budget": "ਕੁੱਲ ਬਜਟ",
     "active_workers": "ਸਰਗਰਮ ਕਾਮੇ",
@@ -73,15 +66,7 @@
     "wages_paid": "ਦਿੱਤੀ ਗਈ ਮਜ਼ਦੂਰੀ",
     "households_benefited": "ਲਾਭ ਪ੍ਰਾਪਤ ਘਰ"
   },
-
-  "comparison": {
-    "title": "ਜ਼ਿਲ੍ਹਾ ਤੁਲਨਾ",
-    "select_districts": "ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ",
-    "compare_btn": "ਤੁਲਨਾ ਕਰੋ",
-    "reset": "ਰੀਸੈੱਟ ਕਰੋ",
-    "no_selection": "ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ"
-  },
-
+ 
   "filters": {
     "year": "ਸਾਲ",
     "month": "ਮਹੀਨਾ",
@@ -89,7 +74,6 @@
     "apply": "ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ",
     "clear": "ਫਿਲਟਰ ਹਟਾਓ"
   },
-
   "months": {
     "1": "ਜਨਵਰੀ",
     "2": "ਫਰਵਰੀ",
@@ -104,7 +88,6 @@
     "11": "ਨਵੰਬਰ",
     "12": "ਦਸੰਬਰ"
   },
-
   "audio": {
     "play": "ਆਡੀਓ ਸੰਖੇਪ ਚਲਾਓ",
     "pause": "ਰੋਕੋ",
@@ -112,7 +95,6 @@
     "loading": "ਆਡੀਓ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
     "error": "ਆਡੀਓ ਚਲਾਉਣ ਵਿੱਚ ਤਰੁੱਟੀ"
   },
-
   "errors": {
     "loading": "ਡਾਟਾ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ",
     "try_again": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
@@ -120,13 +102,11 @@
     "location_error": "ਸਥਾਨ ਦਾ ਪਤਾ ਨਹੀਂ ਲੱਗ ਸਕਿਆ",
     "network_error": "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਤਰੁੱਟੀ"
   },
-
   "accessibility": {
     "skip_link": "ਮੁੱਖ ਸਮੱਗਰੀ ਤੇ ਜਾਓ",
     "menu_button": "ਮੀਨੂ ਟੌਗਲ ਕਰੋ",
     "language_select": "ਭਾਸ਼ਾ ਬਦਲੋ"
   },
-
   "meta": {
     "last_updated": "ਆਖਰੀ ਅਪਡੇਟ: {{date}}",
     "data_source": "ਸਰੋਤ: ਮਨਰੇਗਾ ਜਨਤਕ ਡਾਟਾ ਪੋਰਟਲ",
@@ -134,7 +114,6 @@
   },
   "yes": "ਹਾਂ",
   "no": "ਨਹੀਂ",
-  
   "card_stats": {
     "total_households": "ਕੁੱਲ ਪਰਿਵਾਰ",
     "total_individuals": "ਕੁੱਲ ਵਿਅਕਤੀ",
@@ -144,13 +123,43 @@
     "total_expenditure": "ਕੁੱਲ ਖਰਚਾ",
     "days_per_household": "ਪ੍ਰਤੀ ਪਰਿਵਾਰ ਦਿਨ"
   },
-   "dashboardd": {
-    "title": "Dashboard",
-    "wage_conclusion": "On average, a worker in {{district}} earned ₹{{amount}} per day in {{year}}.",
-    "expenditure_conclusion": "The total expenditure for employment in {{district}} was ₹{{amount}} in {{year}}.",
-    "employment_days_conclusion": "Each household received approximately {{days}} days of work on average in {{year}}.",
-    "no_data": "No data available"
-  }
+  "dashboard": {
+  "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+  "no_data": "ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+  "wage_conclusion": "{{district}} ਵਿੱਚ ਪ੍ਰਤੀ ਵਿਅਕਤੀ ਪ੍ਰਤੀ ਦਿਨ ਔਸਤ ਮਜ਼ਦੂਰੀ ਦਰ ₹{{amount}} ਰਹੀ {{year}} ਦੌਰਾਨ।",
+  "expenditure_conclusion": "{{district}} ਵਿੱਚ ਰੋਜ਼ਗਾਰ ਲਈ ਕੁੱਲ ਖਰਚਾ ₹{{amount}} ਰਿਹਾ {{year}} ਦੌਰਾਨ।",
+  "days_conclusion": "ਹਰ ਘਰ ਨੂੰ ਔਸਤਨ {{days}} ਦਿਨਾਂ ਦਾ ਰੋਜ਼ਗਾਰ ਮਿਲਿਆ {{year}} ਦੌਰਾਨ।"
+},
 
+  "app_name_pa": "ਆਵਾਜ਼-ਏ-ਪੰਜਾਬ",
+  "comparison": {
+  "title": "ਜ਼ਿਲ੍ਹਿਆਂ ਦੀ ਤੁਲਨਾ ਕਰੋ",
+  "select_districts": "ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ",
+    "compare_btn": "ਤੁਲਨਾ ਕਰੋ",
+    "reset": "ਰੀਸੈੱਟ ਕਰੋ",
+    "no_selection": "ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਲਈ ਜ਼ਿਲ੍ਹੇ ਚੁਣੋ",
+  "search_placeholder": "ਜ਼ਿਲ੍ਹਾ ਖੋਜੋ...",
+  "selected_count": "ਜ਼ਿਲ੍ਹੇ ਚੁਣੇ ਗਏ",
+  "instructions": "ਚੁਣਨ ਜਾਂ ਹਟਾਉਣ ਲਈ ਕਿਸੇ ਜ਼ਿਲ੍ਹੇ 'ਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰੋ।",
+  "done": "ਮੁਕੰਮਲ",
+  "results": "ਤੁਲਨਾ ਦੇ ਨਤੀਜੇ",
+  "back": "ਚੋਣ ਵੱਲ ਵਾਪਸ ਜਾਓ",
+  "alert_select_district": "ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਲਈ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ!",
+  "metrics": {
+    "avg_wage": "ਹਰ ਵਿਅਕਤੀ ਪ੍ਰਤੀ ਦਿਨ ਔਸਤ ਮਜ਼ਦੂਰੀ ਦਰ",
+    "total_exp": "ਕੁੱਲ ਖਰਚਾ",
+    "households": "ਕੁੱਲ ਘਰਾਂ ਨੇ ਕੰਮ ਕੀਤਾ",
+    "individuals": "ਕੁੱਲ ਵਿਅਕਤੀਆਂ ਨੇ ਕੰਮ ਕੀਤਾ",
+    "jobcards": "ਕੁੱਲ ਜ਼ਾਬ ਕਾਰਡ ਜਾਰੀ ਕੀਤੇ ਗਏ"
+  },
+  "conclusion": {
+    "avg_wage": "₹{{value}} ਪ੍ਰਤੀ ਦਿਨ",
+    "total_exp": "₹{{value}} ਕੁੱਲ ਖਰਚਾ",
+    "households": "{{value}} ਘਰਾਂ ਨੇ ਕੰਮ ਕੀਤਾ",
+    "individuals": "{{value}} ਵਿਅਕਤੀਆਂ ਨੇ ਕੰਮ ਕੀਤਾ",
+    "jobcards": "{{value}} ਜ਼ਾਬ ਕਾਰਡ ਜਾਰੀ ਕੀਤੇ"
+  }
+}
 
 }
+ 
