@@ -25,7 +25,8 @@ const __dirname = path.dirname(__filename);
 
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
-app.get("*", (req, res) => {
+// Use regex for "catch-all" route in Express 5
+app.get(/^(?!\/api).*$/, (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
